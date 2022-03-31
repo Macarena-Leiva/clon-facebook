@@ -1,0 +1,287 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo&family=Fredoka&family=Kanit:wght@100&family=League+Gothic&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik:wght@300&family=Smooch+Sans:wght@200;300;400;600&family=Space+Mono&family=Trispace:wght@100&display=swap');
+
+body{
+    background: #f0f2f5;
+}
+
+img{
+    width:300px;
+    height: 100px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #24272b;
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+    padding-left: 35px;
+    margin-top: -10px;
+}
+
+.padre{
+    width: 515px;
+}
+
+.boxUno{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 220px;
+    padding-right: 80px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+
+
+.boxDos{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding: 10px 0 20px;
+    width: 396px;
+    margin-top: 180px; 
+}
+
+input{
+    font-size: 14px;
+    padding: 15px 15px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    color: #dddfe2;
+    border-radius: 6px;
+    margin: 8px 20px 8px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.btnAzul{
+    width: 355px;
+    padding: 10px 10px;
+    
+    margin: 5px 20px 5px 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1877f2;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.btnAzul:hover{
+    opacity: 0.8;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.ayuda {
+    color:#1877f2;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 25px;
+}
+
+.ayuda a{
+    color:#1877f2;
+}
+
+
+
+.ayuda :hover{
+    border-bottom: 1px solid #1877f2;
+}
+
+
+
+.btnVerde{
+    width: 180px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #42b72a;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 110px;
+    margin-top: 25px;
+}
+
+.linea{
+    width: 350px;
+    border-bottom:1px solid #dadde1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btnVerde:hover{
+    opacity: 0.8;
+}
+
+.boxPadre{
+    color: #1c1e21;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boxUltimo {
+   margin-left: 20px;
+    width: 350px;
+    font-size: 14px;
+   text-align: center;
+}
+
+.crear{
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+.crear:hover{
+    border-bottom: 1px solid black;
+}
+
+@media (min-width: 320px) and (max-width: 699px){
+
+    main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    .boxUno{
+        width: 300px;
+        margin-top: 5px;
+        padding-right: 0px; 
+    }
+
+    img{
+        margin-left:-35px;
+    }
+
+    h2{
+        font-size: 17px;
+        line-height: 28px;
+        padding-left: 0; 
+    }
+
+    .padre{ 
+        width: 300px; 
+    }
+
+    .boxDos{
+        margin-top: 30px;
+        width: 320px;
+    }
+
+    input{
+        width: 250px;
+        font-size: 13px;
+    }
+   
+    .btnAzul{
+        width: 281px;
+    }
+
+    .btnAzul{
+        font-size: 15px;
+    }
+
+    .btnVerde{
+        width: 150px;
+        font-size: 12px;
+        margin-left:28%;
+    }
+    
+    .boxUltimo{
+        width: 280px;
+        font-size: 12px;
+    }
+
+    .linea{
+        width: 275px;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 942px){
+
+    .boxUno{
+        width: 300px;
+        margin-top: 220px;
+        padding-right: 70px;
+    }
+ 
+    img{
+        margin-left:-35px;
+    }
+ 
+    h2{
+        font-size: 17px;
+        line-height: 28px;
+        padding-left: 0; 
+    }
+
+    .padre{   
+        width: 300px;   
+    }
+ 
+    .boxDos{
+        margin-top: 180px;
+        width: 320px;
+    }
+ 
+    input{
+        width: 250px;
+        font-size: 13px;
+    }
+    
+    .btnAzul{
+        width: 281px;
+    }
+ 
+    .btnAzul{
+        font-size: 15px;
+    }
+ 
+    .btnVerde{
+        width: 150px;
+        font-size: 12px;
+        margin-left:28%;
+    }
+     
+    .boxUltimo{
+        width: 280px;
+        font-size: 12px;
+    }
+ 
+    .linea{
+        width: 275px;
+    }
+
+}
